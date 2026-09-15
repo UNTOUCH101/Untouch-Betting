@@ -1,0 +1,23 @@
+UNTOUCH BETTING — LAUNCH CHECKLIST
+
+[ ] Create Supabase account/project
+[ ] Run supabase/schema.sql in Supabase SQL Editor
+[ ] Copy Supabase URL + anon/publishable key to .env.local
+[ ] Run npm install
+[ ] Run npm run dev
+[ ] Register your owner account
+[ ] In Supabase SQL Editor, set your profile role to admin:
+    update public.profiles set role='admin' where email='YOUR-EMAIL-HERE';
+[ ] Test /dashboard
+[ ] Test /admin
+[ ] Push project to GitHub
+[ ] Import repository into Vercel
+[ ] Add NEXT_PUBLIC_SUPABASE_URL
+[ ] Add NEXT_PUBLIC_SUPABASE_ANON_KEY
+[ ] Deploy
+[ ] Configure Supabase Auth Site URL + redirect URLs
+[ ] Connect your custom domain in Vercel
+[ ] Test registration/login/VIP/admin flows
+[ ] Review local gambling/advertising laws and terms before commercial launch
+
+NEVER share your Supabase service-role key or account password with anyone.
